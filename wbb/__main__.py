@@ -115,25 +115,25 @@ home_keyboard_pm = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Commands ❓", callback_data="bot_commands"
+                text="𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦", callback_data="bot_commands"
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘",
+                url="𝗟𝗢𝗟 😂",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 🖥",
+                text="𝗦𝗬𝗦𝗧𝗘𝗠 𝗦𝗧𝗔𝗧𝗦 🖥",
                 callback_data="stats_callback",
             ),
             InlineKeyboardButton(
-                text="Support 👨", url="http://t.me/WBBSupport"
+                text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="http://t.me/Animeloversindoacs"
             ),
         ],
         [
             InlineKeyboardButton(
-                text="Add Me To Your Group 🎉",
+                text="𝗔𝗗𝗗 𝗠𝗘 𝗧𝗢 𝗬𝗢𝗨𝗥 𝗚𝗥𝗢𝗨𝗣",
                 url=f"http://t.me/{BOT_USERNAME}?startgroup=new",
             )
         ],
@@ -150,20 +150,20 @@ keyboard = InlineKeyboardMarkup(
     [
         [
             InlineKeyboardButton(
-                text="Help ❓",
+                text="𝗛𝗘𝗟𝗣",
                 url=f"t.me/{BOT_USERNAME}?start=help",
             ),
             InlineKeyboardButton(
-                text="Repo 🛠",
-                url="https://github.com/thehamkercat/WilliamButcherBot",
+                text="𝗦𝗢𝗨𝗥𝗖𝗘 𝗖𝗢𝗗𝗘",
+                url="𝗚𝗲𝘁 𝗢𝘂𝘁 𝗠𝗼𝘁𝗵𝗲𝗿𝗳𝘂𝗰𝗸𝗲𝗿𝘀!",
             ),
         ],
         [
             InlineKeyboardButton(
-                text="System Stats 💻",
+                text="𝗦𝗬𝗦𝗧𝗘𝗠 𝗦𝗧𝗔𝗧𝗦 💻",
                 callback_data="stats_callback",
             ),
-            InlineKeyboardButton(text="Support 👨", url="t.me/WBBSupport"),
+            InlineKeyboardButton(text="𝗖𝗛𝗔𝗧 𝗦𝗨𝗣𝗣𝗢𝗥𝗧", url="t.me/animeloversindoacs"),
         ],
     ]
 )
